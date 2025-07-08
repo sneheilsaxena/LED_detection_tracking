@@ -1,0 +1,7 @@
+model_variant: "n"           # n | s | m | l | x (YOLOv8)
+img_size: 640                # training/inference resolution
+epochs: 50                   # fine-tuning epochs
+batch_size: 16               # adjust per GPU/CPU memory
+confidence: 0.25             # inference threshold
+nms_iou: 0.45                # NMS IoU threshold
+dataset_config: "configs/led_data.yaml"

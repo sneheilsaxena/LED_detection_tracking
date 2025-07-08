@@ -1,0 +1,5 @@
+path: data/frames            # root with /train and /val subdirs
+train: train/images          # images
+val: val/images              # images
+names:
+  0: LED                     # single class for now
